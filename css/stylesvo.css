@@ -1,0 +1,25 @@
+.table {
+  width: 50%;
+  margin-bottom: 20px;
+  border: 1px solid #c5c1c1;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.table th {
+  font-weight: bold;
+  padding: 5px;
+  background: #efefef;
+  border: 1px solid #c5c1c1;
+}
+
+.table td {
+  border: 1px solid #c5c1c1;
+  padding: 5px;
+  vertical-align: middle;
+}
+.cat {
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0 0 0;
+}

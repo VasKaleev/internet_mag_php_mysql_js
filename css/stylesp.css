@@ -1,0 +1,42 @@
+body {
+    background-color: #f8f9fa;
+    padding-top: 20px;
+}
+.profile-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.order-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    padding: 20px;
+    margin-bottom: 15px;
+    transition: transform 0.2s;
+}
+.order-card:hover {
+    transform: translateY(-3px);
+}
+.status-new {
+    color: #0d6efd;
+}
+.status-processing {
+    color: #fd7e14;
+}
+.status-completed {
+    color: #198754;
+}
+.status-cancelled {
+    color: #dc3545;
+}
+.nav-pills .nav-link.active {
+    background-color: #0d6efd;
+}
+@media (min-width: 768px) {
+    .container, .container-md, .container-sm {
+      max-width: 95%;
+    }
+  }
